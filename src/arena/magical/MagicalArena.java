@@ -40,6 +40,10 @@ public class MagicalArena {
                 System.out.println(playerB.getName() + " wins!");
                 break;
             }
+            if (playerA.getHealth() > 0 && playerB.getHealth() > 0) {
+            System.out.println("It's a draw!");
+            break;
+            }
         }
     }
     
