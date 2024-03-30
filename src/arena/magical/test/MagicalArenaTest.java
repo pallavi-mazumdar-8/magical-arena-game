@@ -14,6 +14,8 @@ public class MagicalArenaTest {
 
    
     private static void testBattle() {
+
+        
         // Test case 1: Player A wins
         Player playerA1 = new Player("A", 500, 5, 10);
         Player playerB1 = new Player("B", 50, 10, 5);
@@ -36,6 +38,8 @@ public class MagicalArenaTest {
             break;
             }
        }
+
+        
         // Test case 2: Player B wins
         Player playerA2 = new Player("A", 50, 10, 5);
         Player playerB2 = new Player("B", 500, 5, 10);
@@ -58,6 +62,8 @@ public class MagicalArenaTest {
             break;
             }
         }
+
+        
         // Test case 3: Draw
         Player playerA3 = new Player("A", 50, 5, 10);
         Player playerB3 = new Player("B", 50, 5, 10);
